@@ -1,6 +1,8 @@
 # Am I Online
 A way to tell your followers on Scratch whether or not you're online
 
+#Important: This is **not functional** just yet.
+
 **Setup Instructions:**
 
  1. Make a remix of [this Scratch project](https://scratch.mit.edu/projects/639147574/) and jot down the project ID
