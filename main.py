@@ -26,11 +26,13 @@ def startSession(username, password):
 #Open a hook onto the specified project ID 
 def hookProject(session, identifier):
     cloud = session.create_cloud_connection(identifier)
+    print("Connected to scratch.mit.edu/projects/" + identifier)
     return cloud
 
 #Make sure the user trying to access the project is allowed to do so
 def authenticateUser(username, allowedUser):
-
+    print(username)
+    print(allowedUser)
     #If the key fits the lock
     if username == allowedUser:
 
@@ -51,7 +53,7 @@ def main():
     #If all was successful
     if session != 0:
         project = hookProject(session, data[2]) #Open a hook on the desired project
-
+        
     #Get the encoded username from the Scratch project's "allowedUser" variable and convert to a useable string
     allowedName = convertToString(project.get_cloud_variable("allowedUser"))
 
