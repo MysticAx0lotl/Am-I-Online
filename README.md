@@ -1,7 +1,7 @@
 # Am I Online
 A way to tell your followers on Scratch whether or not you're online
 
-#Important: This is **not functional** just yet.
+**IMPORTANT**: This is currently **not functional**. I'm working hard to try to fix it, but I'm not quite there yet
 
 **Setup Instructions:**
 
