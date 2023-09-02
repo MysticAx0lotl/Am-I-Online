@@ -1,7 +1,7 @@
 # Am I Online
 A way to tell your followers on Scratch whether or not you're online
 
-**IMPORTANT**: This is currently **not functional**. I'm working hard to try to fix it, but I'm not quite there yet
+**IMPORTANT**: This is currently **not functional**, and most likely will never be since I've long left Scratch in the past. However, I'm keeping this repository up and open to PRs as it contains some of the most optimized and robust Python code I've ever written
 
 **Setup Instructions:**
 
@@ -16,4 +16,4 @@ A way to tell your followers on Scratch whether or not you're online
 
 If you have any questions or issues, please feel free to submit an issue, or contact me on my [scratch profile](https://scratch.mit.edu/users/CZSuperboy/). Enjoy!
 
-~Zee
+~MysticAxolotl
